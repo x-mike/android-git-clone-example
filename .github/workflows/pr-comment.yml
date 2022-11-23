@@ -11,5 +11,6 @@ jobs:
         uses: thollander/actions-comment-pull-request@v1
         with:
           message: |
-            Привет! :wink: Это твой первый Pull Request! Поздравляю тебя :)
+            Привет! :wink: Это уже не первый pul request. Тест источника вызова бота!
+            Если сообщение изменено значит отрабатывает workflows ветки dev.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
